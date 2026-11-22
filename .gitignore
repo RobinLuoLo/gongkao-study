@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+/.obsidian/cache/
+/.trash/
+
+# 本地课程视频
+*.avi
+*.m4v
+*.mkv
+*.mov
+*.mp4
+*.webm

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="点连接与线连接示意：左侧两个正方形仅共用顶点，右侧两个正方形共用一条边">
+  <rect width="1000" height="330" rx="18" fill="#f8fafc"/>
+  <text x="250" y="58" text-anchor="middle" font-size="30" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#0f172a">点连接</text>
+  <text x="750" y="58" text-anchor="middle" font-size="30" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#0f172a">线连接</text>
+  <rect x="115" y="105" width="120" height="120" fill="none" stroke="#2563eb" stroke-width="7"/>
+  <rect x="235" y="225" width="70" height="70" fill="none" stroke="#2563eb" stroke-width="7"/>
+  <circle cx="235" cy="225" r="10" fill="#e11d48"/>
+  <text x="250" y="315" text-anchor="middle" font-size="22" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#475569">公共部分＝一个点</text>
+  <rect x="610" y="110" width="130" height="130" fill="none" stroke="#2563eb" stroke-width="7"/>
+  <rect x="740" y="110" width="130" height="130" fill="none" stroke="#2563eb" stroke-width="7"/>
+  <line x1="740" y1="110" x2="740" y2="240" stroke="#e11d48" stroke-width="9"/>
+  <text x="750" y="315" text-anchor="middle" font-size="22" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#475569">公共部分＝一段边</text>
+</svg>

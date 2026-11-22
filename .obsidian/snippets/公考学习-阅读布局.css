@@ -1,0 +1,25 @@
+/* 只在公考学习库启用，保留相对字号与中文行距。 */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 {
+  --file-line-width: min(46vw, 72rem);
+}
+.markdown-preview-view {
+  font-size: calc(var(--font-text-size) * 1.125);
+  line-height: 1.7;
+}
+.markdown-preview-view .markdown-preview-section > div:has(> table) {
+  overflow-x: auto;
+}
+.markdown-preview-view table {
+  width: 100%;
+}
+.markdown-preview-view .metadata-container,
+.markdown-preview-view .inline-title {
+  display: none !important;
+}
+@media (max-width: 1200px) {
+  .markdown-preview-view,
+  .markdown-source-view.mod-cm6 {
+    --file-line-width: min(88vw, calc(100% - 2rem));
+  }
+}

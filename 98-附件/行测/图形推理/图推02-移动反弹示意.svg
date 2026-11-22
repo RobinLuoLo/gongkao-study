@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-label="位置移动示意：上半部分展示三格轨道到边界反弹，下半部分展示上下两个元素各自移动">
+  <rect width="1200" height="440" rx="18" fill="#f8fafc"/>
+  <text x="44" y="53" font-size="29" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#0f172a">到边界反弹</text>
+  <text x="44" y="83" font-size="20" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#475569">三格轨道：每次分别走 1、2、3 步；碰到端点就回头</text>
+  <g fill="none" stroke="#94a3b8" stroke-width="3">
+    <rect x="55" y="112" width="180" height="70"/><rect x="335" y="112" width="180" height="70"/><rect x="615" y="112" width="180" height="70"/><rect x="895" y="112" width="180" height="70"/>
+    <path d="M115 112v70 M175 112v70 M395 112v70 M455 112v70 M675 112v70 M735 112v70 M955 112v70 M1015 112v70"/>
+  </g>
+  <g fill="#e11d48"><circle cx="85" cy="147" r="15"/><circle cx="425" cy="147" r="15"/><circle cx="705" cy="147" r="15"/><circle cx="925" cy="147" r="15"/></g>
+  <g fill="#334155" font-size="20" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" text-anchor="middle"><text x="145" y="211">第 1 图：①</text><text x="425" y="211">第 2 图：②</text><text x="705" y="211">第 3 图：②</text><text x="985" y="211">第 4 图：①</text></g>
+  <g stroke="#64748b" stroke-width="3" fill="none"><path d="M245 147h78"/><path d="M525 147h78"/><path d="M805 147h78"/></g>
+  <g fill="#64748b"><path d="m323 147-13-8v16z"/><path d="m603 147-13-8v16z"/><path d="m883 147-13-8v16z"/></g>
+  <text x="44" y="278" font-size="29" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#0f172a">分开看</text>
+  <text x="44" y="307" font-size="20" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#475569">同一背景里的不同元素可以各走各的规律</text>
+  <g fill="none" stroke="#cbd5e1" stroke-width="3"><rect x="450" y="260" width="150" height="120"/><rect x="650" y="260" width="150" height="120"/><rect x="850" y="260" width="150" height="120"/><path d="M450 320h150 M650 320h150 M850 320h150"/></g>
+  <g fill="#2563eb"><circle cx="480" cy="290" r="15"/><circle cx="725" cy="290" r="15"/><circle cx="970" cy="290" r="15"/></g>
+  <g fill="#f59e0b"><circle cx="570" cy="350" r="15"/><circle cx="725" cy="350" r="15"/><circle cx="880" cy="350" r="15"/></g>
+  <text x="1040" y="294" font-size="20" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#2563eb">上排向右</text>
+  <text x="1040" y="355" font-size="20" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" fill="#b45309">下排向左</text>
+</svg>
